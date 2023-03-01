@@ -1,5 +1,6 @@
 public static boolean hyperPar(int num) {
     int resto;
+    if(num>=0){
     while(num!=0)
     {
         resto = num%10;
@@ -10,3 +11,7 @@ public static boolean hyperPar(int num) {
     }
     return true
 }
+else{
+    return false
+}
+}}
